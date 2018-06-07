@@ -12,7 +12,7 @@ class Message extends Model
     ];
 
     protected $appends = [
-        'selfOwned' =>
+        'selfOwned'
     ];
 
     public function getSelfOwnedAttribute()
